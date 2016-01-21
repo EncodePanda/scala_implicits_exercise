@@ -13,6 +13,15 @@ object Army extends App {
   val army = 3.soldiers.recruit
   printArmy(army)
 
+  // only robots
+  // 5.robots.recruit
+
+  // only humans
+  // 10.soldiers.recruit
+
+  // humans by default
+  // 3.recruit
+
 
   def printArmy(army: List[Soldier]) = army.foreach(println)
 
